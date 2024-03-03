@@ -20,8 +20,8 @@ export default function App() {
   });
   const [loading, setLoading] = useState(true);
 
-  const client_id = "b4200289a5434278a3da50e021627b18";
-  const client_secret = "3654467ed01b44878d4b01f94835ed35";
+  const client_id = "YOUR_SPOTIFY_CLIENT_ID";
+  const client_secret = "YOUR_SPOTIFY_CLIENT_SECRET";
 
   useEffect(() => {
     async function getAccessToken() {
