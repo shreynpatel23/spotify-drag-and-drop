@@ -1,0 +1,31 @@
+.card_wrapper {
+    padding: 10px;
+    background: #fcfcfc;
+    margin: 10px 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.14);
+}
+
+.card_wrapper:hover {
+    cursor: col-resize;
+    background: #ddd
+}
+
+.playlist_image {
+    width: 60px;
+    height: 60px
+}
+
+.playlist_name {
+    padding: 2px 5px;
+    font-size: 16px;
+    text-align: left;
+    color: #666;
+}
+
+.playlist_description {
+    padding: 2px 5px;
+    font-size: 14px;
+    text-align: left;
+    color: #999;
+}

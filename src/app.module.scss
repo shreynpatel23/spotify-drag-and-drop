@@ -1,0 +1,21 @@
+.dropContainer {
+  flex: 1;
+  height: 70vh;
+  overflow: auto;
+  background: #eee;
+  transition: background 0.3s;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+}
+
+.dropContainerHover {
+  flex: 1;
+  height: 70vh;
+  background: rgba($color: #31b975, $alpha: 0.3);
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+.add_border {
+  border: 3px dashed #31b975;
+}

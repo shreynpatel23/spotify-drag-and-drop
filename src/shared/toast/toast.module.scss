@@ -1,0 +1,30 @@
+.toast_position {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    min-width: 300px;
+    background: #31b975;
+    border-radius: 8px;
+    padding: 20px;
+    animation: slide 0.2s ease forwards;
+}
+
+.toast_message {
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+}
+
+.close_svg {
+    fill: #666;
+    cursor: pointer;
+}
+
+@keyframes slide {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 20px
+    }
+}
